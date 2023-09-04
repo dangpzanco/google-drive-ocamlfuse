@@ -3,8 +3,8 @@ maintainer: "Alessandro Strada <alessandro.strada@gmail.com>"
 authors: [ "Alessandro Strada" ]
 license: "MIT"
 homepage: "http://gdfuse.forge.ocamlcore.org/"
-dev-repo: "git+https://github.com/astrada/google-drive-ocamlfuse.git"
-bug-reports: "https://github.com/astrada/google-drive-ocamlfuse/issues"
+dev-repo: "git+https://github.com/dangpzanco/google-drive-ocamlfuse.git"
+bug-reports: "https://github.com/dangpzanco/google-drive-ocamlfuse/issues"
 build: [
   ["dune" "build" "-p" name "-j" jobs]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
